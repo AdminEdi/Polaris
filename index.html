@@ -1,0 +1,89 @@
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Polaris Academy</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/gandom-font@0.8.0/dist/font-face.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container flex-between">
+      <a href="index.html" class="logo">
+        <span>Polaris Academy</span>
+        <img class="logo-icon" src="images/IMG_2568 2.PNG">
+        </a>
+      <nav id="nav" class="nav">
+        <a href="Article.html">مقالات</a>
+        <a href="#">خبرنامه</a>
+        <a href="#">دوره آموزشی</a>
+        <a href="about.html">درباره ما</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>مطالعه هوشمندانه</h1>
+      <p>پلاریس همراه همیشگی شما در مسیر یادگیری خواهد بود</p>
+      <form class="subscribe-form">
+        <input type="email" placeholder="نشانی ایمیل" required>
+        <button type="submit">عضو شوید</button>
+      </form>
+    </div>
+    <br><br><br>
+
+  <section class="section-highlight">
+    <div class="container">
+      <h2 class="section-title">آخرین مقالات</h2>
+      <br><br><br>
+      <div class="grid">
+
+        <article class="card card-icon-title">
+          <div class="icon-title-row">
+            <img src="Icons/check-square 6.svg">
+            <h3>تکنیک مطالعه</h3>
+          </div><br>
+          <p style="direction: rtl"> با هم قراره سبک تازه‌ای از یادگیری را تجربه کنیم؛
+            روش‌هایی برای فهم بهتر، مرور مؤثرتر، و کاهش استرس فراموشی.</p><br>
+          <a href="SmartStudy.html" class="read-more">بیشتر بخوانید</a>
+        </article>
+
+        <article class="card card-icon-title">
+          <div class="icon-title-row">
+            <img src="Icons/check-square 6.svg">
+            <h3>ماهیت انگیزه</h3>
+          </div><br>
+          <p>انگیزه تنها یک میل گذرا نیست، بلکه نیرویی درونی است که به کمک سیستم پاداش مغز، مسیر تلاش‌های ما را هموار می‌کند.
+          </p><br>
+          <a href="Motivation.html" class="read-more">بیشتر بخوانید</a>
+        </article>
+
+        <article class="card card-icon-title">
+          <div class="icon-title-row">
+            <img src="Icons/check-square 6.svg">
+            <h3>بار شناختی</h3>
+          </div><br>
+          <p>بار شناختی زمانی کاهش می‌یابد که اطلاعات جدید به‌درستی با دانسته‌های قبلی ترکیب شوند. آغازی برای یادگیری عمیق و ماندگار.
+          </p><br>
+          <a href="CognitiveLoad.html" class="read-more">بیشتر بخوانید </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 PolarisAcademy – همه‌ی حقوق محفوظ است.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
