@@ -258,7 +258,7 @@ main.container {
   }
   .nav.open{
     display:flex;
-    direction: rtl;
+  
   }
 }
 
