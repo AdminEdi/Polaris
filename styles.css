@@ -248,7 +248,9 @@ main.container {
     z-index: 999;
   }
   .nav a{
-    display :block;
+    display: block;
+    direction: rtl !important;
+    text-align: rtl;
     margin:0.75rem 0;
   }
   .nav-toggle{
@@ -256,6 +258,7 @@ main.container {
   }
   .nav.open{
     display:flex;
+    direction: rtl;
   }
 }
 
