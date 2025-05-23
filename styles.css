@@ -233,7 +233,7 @@ main.container {
 @media (max-width:768px){
   .nav{
     display:none;
-    position:absolute;
+    position:fixed;
     top:60px;
     right:5%;
     background:#ffffff
