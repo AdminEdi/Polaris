@@ -93,8 +93,8 @@ main.container {
 }
 
 .nav a{
-  direction: ltr;
-  text-align:left;
+  direction: rtl;
+  text-align:right;
   margin-left:1.5rem;
   font-weight:600;
   font-size:0.95rem;
