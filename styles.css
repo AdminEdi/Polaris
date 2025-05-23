@@ -235,16 +235,17 @@ main.container {
     display:none;
     position:absolute;
     top:60px;
-    right:5%;
+    right:0;
     background:#fff;
-    border:1px solid #e5e5e5;
     border-radius:6px;
     padding:1rem;
     width:200px;
     box-shadow:0 8px 24px rgba(0,0,0,0.05);
     flex-direction:column;
-    direction: rtl;
-    text-align: right;
+    direction: rtl !important;
+    text-align: right !important;
+    align-item: flex-start;
+    z-index: 999;
   }
   .nav a{
     margin:0.75rem 0;
