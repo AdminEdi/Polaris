@@ -232,7 +232,7 @@ main.container {
 
 @media (max-width:768px){
   .nav{
-    display:block;
+    display:none;
     position:absolute;
     top:60px;
     right:0;
