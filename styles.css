@@ -244,6 +244,7 @@ main.container {
     flex-direction:column;
     direction: rtl;
     text-align: rtl;
+    z-index: 9999;
   }
   .nav a{
     display: block;
