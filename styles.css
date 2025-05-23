@@ -257,6 +257,7 @@ main.container {
 
   .nav.open{
     display:block;
+    z-index: 9999;
   } 
 }
 
