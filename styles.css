@@ -246,16 +246,21 @@ main.container {
     direction: rtl;
     text-align: rtl;
   }
+
+  .nav.open{
+    display:block;
+  }  
+  
   .nav a{
     display: block;
     margin:0.75rem 0;
+    text-align: right;
   }
+  
   .nav-toggle{
     display:block;
   }
-  .nav.open{
-    display:flex;
-  }
+  
 }
 
 .libre-baskerville-regular {
