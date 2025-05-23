@@ -247,7 +247,7 @@ main.container {
     text-align: rtl;
   }
   .nav a{
-    display: block;
+    display: none;
     margin:0.75rem 0;
   }
   .nav-toggle{
