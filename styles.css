@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+
 :root{
   --clr-accent:#D87C64;
   --clr-text:#1c1c1e;
@@ -5,9 +7,9 @@
   --clr-muted:#6e6e73;
   --font-body:'Inter',Bitter;
   --font-logo:'Intre',Bitter;
-  --font-menu:'Lateef', serif;
+  --font-menu:'Sahel', serif;
     font-weight: 400;
-  --font-heading: 'Lateef', serif;
+  --font-heading: 'Sahel', serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -21,13 +23,16 @@
 }
 
 body{
-  font-family: "Sahel", sans-serif;
+  font-family: "Sahel","Alice", sans-serif;
   direction: rtl;
   text-align: right;
   color:var(--clr-text);
   background-color:var(--clr-bg);
   line-height:1.6;
 }
+
+
+
 
 .logo{
   font-family:var(--font-logo);
@@ -58,7 +63,6 @@ main.container {
   font-size: 1.1rem;
   max-width: 700px;
 }
-
 
 
 .flex-between{
@@ -455,3 +459,8 @@ ul, ol {
   font-weight: 900;
 }
 
+.alice-regular{
+  font-family: "Alice", serif;
+  font-weight: normal;
+  font-style: normal;
+}
