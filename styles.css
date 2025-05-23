@@ -245,11 +245,6 @@ main.container {
     direction: rtl;
     text-align: rtl;
   }
-
-  .nav.open{
-    display:block;
-  }  
-  
   .nav a{
     display: block;
     margin:0.75rem 0;
@@ -259,7 +254,10 @@ main.container {
   .nav-toggle{
     display:block;
   }
-  
+
+  .nav.open{
+    display:block;
+  } 
 }
 
 .libre-baskerville-regular {
