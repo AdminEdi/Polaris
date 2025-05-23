@@ -236,8 +236,7 @@ main.container {
     position:absolute;
     top:60px;
     right:5%;
-    background:#fff;
-    border:1px solid #e5e5e5;
+    background:#ffff
     border-radius:6px;
     padding:1rem;
     width:200px;
