@@ -232,7 +232,7 @@ main.container {
 
 @media (max-width:768px){
   .nav{
-    display:none;
+    display:block;
     position:absolute;
     top:60px;
     right:0;
@@ -248,6 +248,7 @@ main.container {
     z-index: 999;
   }
   .nav a{
+    display :block;
     margin:0.75rem 0;
   }
   .nav-toggle{
