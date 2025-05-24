@@ -262,45 +262,42 @@ main.container {
     z-index: 9999;
   }
   
-  .footer-newsletter__text p {
-  text-align: center;
-  margin-right: 0%;
-  opacity: 0.9;
-  color: #f5f5f5;
-  } 
-  
-  .footer-newsletter__form{
-    display:flex;
-    gap:0.5rem;
-    justify-content:center;
-    flex-wrap:wrap;
+}
+
+@media (max-width: 768px) {
+  /* وسط‌چین کردن متن توضیح */
+  .footer-newsletter__text {
+    text-align: center !important;
+    margin: 0 auto !important;
   }
-  
-  .footer-newsletter__form input{
-    padding:0.75rem 1rem;
-    font-size:1rem;
-    border:1px solid #d0d0d2;
-    border-radius:4px;
-    flex:1 1 260px;
-    min-width:240px;
+
+  /* فرم اشتراک به صورت عمودی و وسط‌چین */
+  .footer-newsletter__form {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    margin: 0 auto !important;
   }
-  
-  .footer-newsletter__form button{
-    padding:0.75rem 1.25rem;
-    font-size:1rem;
-    border:none;
-    background:var(--clr-accent);
-    color:#fff;
-    font-weight:600;
-    border-radius:4px;
-    cursor:pointer;
-    transition:opacity 0.25s ease;
+
+  /* عرض ورودی ایمیل و دکمه */
+  .footer-newsletter__form input {
+    width: 90% !important;
+    max-width: 350px;
   }
-  
+
+  .footer-newsletter__form button {
+    width: 90% !important;
+    max-width: 350px;
+  }
+
+  /* وسط‌چین کردن آیکون‌های شبکه اجتماعی */
   .footer-social-icons {
-    align-item: center;
+    justify-content: center !important;
+    margin-top: 1rem !important;
+    width: 100% !important;
   }
-  
 }
 
 
