@@ -262,20 +262,30 @@ main.container {
     z-index: 9999;
   }
   
-  .subscribe-form {
-    flex-direction: column !important;
-    align-items: center !important;
+  .footer-newsletter__text {
+    text-align: center;
   }
   
-  .subscribe-form input[type="email"] {
-    width: 90% !important;
-    margin-bottom: 1rem !important;
+  .footer-newsletter__form {
+    display: flex;
+    flex-direction: column;
+    align-item: center;
+  }
+
+  .footer-newsletter__form input {
+    width: 90%;
+    margin-bottom: 1rem;
   }
   
-  .subscribe-form button {
-    width: 90% !important;
+  .footer-newsletter__form button {
+    width: 30%;
   }
-}  
+
+  .footer-social-icons {
+    align-item: center
+  }
+  
+}
 
 
 .libre-baskerville-regular {
