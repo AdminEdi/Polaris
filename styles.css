@@ -261,6 +261,11 @@ main.container {
     display:block;
     z-index: 9999;
   } 
+  .footer-newsletter__form {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+  } 
 }
 
 .libre-baskerville-regular {
