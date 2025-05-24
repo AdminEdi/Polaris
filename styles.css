@@ -266,9 +266,8 @@ main.container {
 
 @media (max-width: 768px) {
   /* وسط‌چین کردن متن توضیح */
-  .footer-newsletter__text {
+  .footer-newsletter__text p {
     text-align: center !important;
-    margin: 0 auto !important;
   }
 
   /* فرم اشتراک به صورت عمودی و وسط‌چین */
