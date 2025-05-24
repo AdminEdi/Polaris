@@ -261,15 +261,21 @@ main.container {
     display:block;
     z-index: 9999;
   }
-  
+
+  .footer-newsletter { 
+    display: flex !important;
+    flex-direction: column !important;
+    align-item: center !important;    
+  }
+    
   .footer-newsletter__text {
-    text-align: center;
+    text-align: center !important;
   }
   
   .footer-newsletter__form {
-    display: flex;
-    flex-direction: column;
-    align-item: center;
+    display: flex !important;
+    flex-direction: column !important;
+    align-item: center !important;
   }
 
   .footer-newsletter__form input {
@@ -278,7 +284,7 @@ main.container {
   }
   
   .footer-newsletter__form button {
-    width: 30%;
+    text-align: center !important;
   }
 
   .footer-social-icons {
