@@ -1,123 +1,40 @@
-</section>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Polaris Academy</title>
-  
-  <link rel="icon" type="image/png" href="images/IMG_2568 2.PNG" />
-  <link rel="apple-touch-icon" href="images/IMG_2568 2.PNG" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/font-face.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  <header class="site-header">
-    <div class="container flex-between">
-      <a href="index.html" class="logo">
-        <span>Polaris Academy</span>
-        <img class="logo-icon" src="images/IMG_2568 2.PNG">
-        </a>
-      <nav id="nav" class="nav">
-        <a href="index.html" class="Active">خانه</a>        
-        <a href="Article.html">مقالات</a>
-        <a href="about.html">درباره ما</a>
-      </nav>
-      <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()">☰</button>
-    </div>
-  </header>
-
-  <section class="hero">
-    <div class="container">
-      <h1>یادگیری هوشمندانه</h1>
-      <p>پلاریس همراه همیشگی شما در مسیر یادگیری خواهد بود</p>
-      <form class="subscribe-form">
-        <input type="email" placeholder="نشانی ایمیل" required>
-        <button type="submit">عضو شوید</button>
-      </form>
-    </div>
-    <br><br><br><br>
-    
-    <h2 class="section-title">آخرین مقالات</h2>
-    <section class="section-highlight">
-    <div class="container">
-      <br><br>
-      <div class="grid">
-
-        <article class="card card-icon-title">
+<section class="section-highlight">
+  <div class="container">
+    <div class="slider-container">
+      <button class="arrow right" onclick="scrollSlider(-1)">&#10094;</button>
+      <div class="slider" id="articleSlider">
+        
+        <div class="article-card">
           <div class="icon-title-row">
             <img src="Icons/check-square 6.svg">
             <h3>ماهیت انگیزه</h3>
           </div><br>
-          <p>انگیزه تنها یک میل گذرا نیست، بلکه نیرویی درونی است که به کمک سیستم پاداش مغز، مسیر تلاش‌های ما را هموار می‌کند.
-          </p><br>
+          <p>انگیزه تنها یک میل گذرا نیست، بلکه نیرویی درونی است که به کمک سیستم پاداش مغز، مسیر تلاش‌های ما را هموار می‌کند.</p><br>
           <a href="Motivation.html" class="read-more">بیشتر بخوانید</a>
-        </article>
+        </div>
 
-
-        <article class="card card-icon-title">
+        <div class="article-card">
           <div class="icon-title-row">
             <img src="Icons/check-square 6.svg">
             <h3>بار شناختی</h3>
           </div><br>
-          <p>بار شناختی زمانی کاهش می‌یابد که اطلاعات جدید به‌درستی با دانسته‌های قبلی ترکیب شوند. آغازی برای یادگیری عمیق و ماندگار.
-          </p><br>
-          <a href="CognitiveLoad.html" class="read-more">بیشتر بخوانید </a>
-        </article>
+          <p>بار شناختی زمانی کاهش می‌یابد که اطلاعات جدید به‌درستی با دانسته‌های قبلی ترکیب شوند. آغازی برای یادگیری عمیق و ماندگار.</p><br>
+          <a href="CognitiveLoad.html" class="read-more">بیشتر بخوانید</a>
+        </div>
 
-        <article class="card card-icon-title">
+        <div class="article-card">
           <div class="icon-title-row">
             <img src="Icons/check-square 6.svg">
             <h3>تکنیک مطالعه</h3>
           </div><br>
-          <p style="direction: rtl"> با هم قراره سبک تازه‌ای از یادگیری را تجربه کنیم؛
-            روش‌هایی برای فهم بهتر، مرور مؤثرتر، و کاهش استرس فراموشی.</p><br>
+          <p style="direction: rtl">با هم قراره سبک تازه‌ای از یادگیری را تجربه کنیم؛ روش‌هایی برای فهم بهتر، مرور مؤثرتر، و کاهش استرس فراموشی.</p><br>
           <a href="SmartStudy.html" class="read-more">بیشتر بخوانید</a>
-          </article>
-
-      </div>
-    </div>
-  </section>
-
-  <footer class="site-footer-custom">
-    <!-- بخش توضیحاتی + فرم خبرنامه -->
-    <div class="footer-newsletter">
-      <div class="container flex-between">
-        <div class="footer-newsletter__text">
-          
-          <p>در خبرنامه عضو شوید.</p>
         </div>
-        <form action="#" class="subscribe-form footer-newsletter__form">
-          <input type="email" placeholder="نشانی ایمیل" required>
-          <button type="submit">عضو شوید</button>
-        </form>
-        <!-- آیکون‌های شبکه‌های اجتماعی -->
-        <div class="footer-social-icons">
-          <a href="https://t.me/+cGjcIqG-dCdjYTk0"><img src="Icons/telegram-white-icon-2.png" alt="Telegram"></a>
-          <a href="#"><img src="Icons/instagram-white-icon.png" alt="Instagram"></a>
-          <!-- بقیه آیکون‌ها اگر هست اضافه کن -->
-        </div>
-      </div>
-    </div>
-  
-    <!-- خط جداکننده -->
-    <div class="footer-divider">
-      <hr>
-    </div>
-  
-    <!-- بخش کپی‌رایت -->
-    <div class="footer-bottom">
-      <p>© 2025 Polaris Academy – همه حقوق محفوظ است.</p>
-    </div>
-  </footer>
 
-  <script src="script.js"></script>
-</body>
-</html>
+        <!-- مقالات بیشتر اینجا اضافه کن -->
+        
+      </div>
+      <button class="arrow left" onclick="scrollSlider(1)">&#10095;</button>
+    </div>
+  </div>
+</section>
